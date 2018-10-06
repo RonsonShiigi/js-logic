@@ -35,6 +35,7 @@ return true;
   }
 }
 console.log(canVote(18))
+console.log(test)
 
 
 /*
