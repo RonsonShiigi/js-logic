@@ -123,7 +123,14 @@ console.log(mustBeTrue('boo'));
  * Console.log your result.
 */
 
+function bigBird(word){
+var n = word.length
+  if (n === 3) {
 
+    return 'Word to Big Bird'
+  }
+}
+console.log(bigBird('yoy'));
 
 /*
  * #6
