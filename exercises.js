@@ -170,6 +170,17 @@ console.log(isEqual('hello','boom'))
  * Console.log your result.
 */
 
+function notEqual(first,second){
+if (first !==second){
+  return 'Opposits do attract'
+}
+else {
+
+  return "Cause it's like you're my mirror"
+}
+}
+
+console.log(notEqual('hello','ello'))
 
 /*
  * #8
