@@ -35,7 +35,7 @@ return true;
   }
 }
 console.log(canVote(18))
-console.log(test)
+
 
 
 /*
@@ -50,6 +50,14 @@ console.log(test)
  * Console.log your result.
 */
 
+function login(password){
+  if (password === 'test1234'){
+    return 'Login Success'
+  }
+ 
+ 
+ }
+ console.log(login('test1234'));
 
 /*
  * #3
