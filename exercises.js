@@ -145,6 +145,17 @@ console.log(bigBird('yoy'));
  * Console.log your result.
 */
 
+function isEqual(first,second){
+
+if (first === second){
+  return "You look great"
+}
+else {
+  return 'I dont know who you are anymore.'
+}
+
+}
+console.log(isEqual('hello','boom'))
 
 /*
  * #7
