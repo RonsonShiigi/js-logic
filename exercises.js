@@ -301,6 +301,17 @@ console.log(daClub(19,22));;
  * Console.log your result.
 */ 
 
+function graduation(credits,thesis){
+
+if(credits === 120 || thesis === true){
+  return "Good Job"
+}
+
+else 
+return "See You in Summer"
+}
+
+console.log(graduation(120,true))
 
 
 /*
