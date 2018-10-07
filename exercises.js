@@ -276,6 +276,17 @@ console.log(evenStevens(9))
  * Console.log your result.
 */ 
 
+function daClub(cover,age){
+ 
+if ( cover >= 21 && age >= 21) {
+  return "Welcome to Legends Lounge"
+} 
+else 
+return "Chuck E Cheease is there"
+
+}
+
+console.log(daClub(19,22));;
 
 /*
  * #12
