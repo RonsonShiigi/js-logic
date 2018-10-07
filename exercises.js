@@ -326,6 +326,20 @@ console.log(graduation(120,true))
  * Console.log your result.
 */ 
 
+function moneyTrain(speed){
+
+if(speed<50){
+  return " You are Riding Honolulu Rail"
+}
+
+else if(speed<100){
+  return "You are on Amtrak"
+}
+else if(speed>= 100){
+  return "Now you ballin"
+}
+}
+console.log(moneyTrain(22));
 
 /*
  * #14
