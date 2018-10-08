@@ -437,6 +437,11 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 4"
  * "Player: 5"
 */
+var player = [1,2,3,4,5];
+
+for (var i = 0; i<player.length; i++){
+  console.log("Player " + player[i])
+}
 
 
 /* 
